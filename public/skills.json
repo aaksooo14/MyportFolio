@@ -1,0 +1,52 @@
+[
+  {
+    "name": "HTML",
+    "description": "Markup language for structuring web content like headings and images.",
+    "title": "Markup Language"
+  },
+  {
+    "name": "CSS",
+    "description": "Styles web pages, controlling layout, colors, and fonts.",
+    "title": "Styling Language"
+  },
+  {
+    "name": "JavaScript",
+    "description": "Adds interactivity and dynamic features to web pages.",
+    "title": "Scripting Language"
+  },
+  {
+    "name": "React",
+    "description": "Library for building reusable UI components and managing state.",
+    "title": "UI Library"
+  },
+  {
+    "name": "Vue.js",
+    "description": "Framework for building UIs and single-page applications easily.",
+    "title": "JavaScript Framework"
+  },
+  {
+    "name": "Bootstrap",
+    "description": "Framework for responsive, mobile-first web design with pre-built components.",
+    "title": "CSS Framework"
+  },
+  {
+    "name": "Sass",
+    "description": "CSS preprocessor that adds variables and nesting for better styling.",
+    "title": "CSS Preprocessor"
+  },
+  {
+    "name": "TypeScript",
+    "description": "Typed JavaScript for enhanced code quality and error checking.",
+    "title": "Type-Safe JavaScript"
+  },
+  {
+    "name": "Webpack",
+    "description": "Bundler for compiling JavaScript and other assets for optimized performance.",
+    "title": "Build Tool"
+  },
+  {
+    "name": "Gulp",
+    "description": "Automates development tasks like minification and live-reloading.",
+    "title": "Task Runner"
+  }
+]

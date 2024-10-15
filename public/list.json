@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Project Alpha",
+    "description": "A cutting-edge project that leverages advanced technologies to solve real-world problems.",
+    "title": "Ecommerce website"
+  },
+  {
+    "name": "Project Beta",
+    "description": "An innovative project focusing on enhancing user experience with intuitive design.",
+    "title": "Ecommerce website"
+  },
+  {
+    "name": "Project Gamma",
+    "description": "A project dedicated to improving data security and privacy with state-of-the-art encryption methods.",
+    "title": "Ecommerce website"
+  },
+  {
+    "name": "Project Delta",
+    "description": "A scalable project aimed at providing solutions for big data analytics and visualization.",
+    "title": "Ecommerce website"
+  },
+  {
+    "name": "Project Epsilon",
+    "description": "A revolutionary project designed to integrate AI and machine learning for predictive analytics.",
+    "title": "Ecommerce website"
+  }
+]
