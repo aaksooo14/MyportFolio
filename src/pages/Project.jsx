@@ -1,35 +1,40 @@
 // import profileImage from '../assets/profile.jpg'
 import shopMe from '../assets/shopMe.png'
 import weatherApp from '../assets/weatherApp.png'
+
 import { Link } from 'react-router-dom'
+
 const Project = () => {
     return (
         <>
-            <div className='pl-2 pr-2 bg-black text-white'>
-                <div className='space-y-3 pt-3'>
-                    <p className='text-2xl '>
+            <div
+                className={`pl-2 pr-2 bg-black text-white `}
+
+            >
+                <div
+
+                    className='space-y-6 pt-5 p-6 rounded-lg shadow-md '>
+                    <p className='text-3xl font-semibold text-white'>
                         FullStack Developer
                     </p>
-                    <p className='text-xl'>
-                        React JS | Node Js | Express JS | Mongo DB |
+                    <p className='text-xl '>
+                        React JS | Node JS | Express JS | Mongo DB
                     </p>
-                    <p className='text-1xl'>React Developer with a proven track record in building dynamic and responsive web applications using React, HTML, CSS, JavaScript, and Tailwind CSS. Passionate about creating seamless user experiences and eager to contribute to a forward-thinking team that values innovation and collaboration.</p>
-
-                    {/* <div className='flex items-center justify-center'>
-                        <img
-                            className='w-[60vh]'
-                            src={profileImage}
-                            alt='profileImagePX' />
-                    </div> */}
-
+                    <div className="w-full">
+                        <p className="leading-relaxed ">
+                            React Developer with a proven track record in building dynamic and responsive web applications using React, HTML, CSS, JavaScript, and Tailwind CSS. Passionate about creating seamless user experiences and eager to contribute to a forward-thinking team that values innovation and collaboration.
+                        </p>
+                    </div>
                 </div>
+
                 {/* PROJECT  SECTION*/}
-                <div className='space-y-2 pb-5'>
+                <div className='space-y-5 pb-5'>
                     <p className=' text-2xl font-semibold flex items-center justify-center p-5'>Projects</p>
-                    <div className=" card lg:card-side bg-black text-white shadow-xl p-3 border  border-white">
-                        <figure>
+                    <div className=" card lg:card-side bg-black text-white shadow-xl 
+                     border  border-white">
+                        <figure className='pt-5'>
                             <img
-                                className='w-[320px] h-[200px]'
+                                className='w-[320px] h-[200px] '
                                 src={shopMe}
                                 alt="Album" />
                         </figure>
@@ -43,9 +48,9 @@ const Project = () => {
                     </div>
                     <div className='space-y-2'>
                         <div className="card lg:card-side bg-black text-white shadow-xl p-3 border  border-white">
-                            <figure>
+                            <figure className='pt-5'>
                                 <img
-                                    className='w-[320px] h-[200px]'
+                                    className='w-[320px] h-[200px] rounded-md'
                                     src={weatherApp}
                                     alt="Album" />
                             </figure>
@@ -63,7 +68,7 @@ const Project = () => {
                 {/* //2 */}
 
 
-            </div>
+            </div >
         </>
     )
 }
